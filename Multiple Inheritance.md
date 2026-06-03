@@ -31,15 +31,23 @@ To write a Python program to get the name, attendance, and ID of a student and c
 
 ### PROGRAM
 
-```
+```python
+
+class Demo:
+    def __init__(self):
+        self.status = "Alive"
+    
+    def __del__(self):
+        print('The object no longer exists')
+
+obj = Demo()
+print(obj.status)
 
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/58582acc-a705-4269-a3be-dc97c20a9dec)
 
 
 ### RESULT
-
-
-
-
+Thus the program that demonstrates the use of a destructor method (del) in a class to indicate when an object is destroyed has been implemented and executed successfully.
